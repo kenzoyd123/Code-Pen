@@ -1,0 +1,92 @@
+/* Information */
+.informational-wrapper > .informational-container {
+    display: grid;
+    grid-template-columns: 1.25fr 1fr;
+    padding-top: 45px;
+    background: rgb(71,74,83);
+    background: linear-gradient(148deg, rgba(71,74,83,1) 0%, rgba(39,42,48,1) 55%, rgba(25,26,29,1) 100%);}
+
+.informational-wrapper > .informational-container > .left-col {
+    padding-left: 40px;
+    color: white;
+    font-size: 1.75em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.informational-wrapper > .informational-container > .left-col > .statement {
+    font-weight: 700;
+}
+
+.informational-wrapper > .informational-container > .left-col p {
+    font-size: .85em;
+    line-height: 1.5em;
+}
+
+.informational-wrapper > .informational-container > .left-col > .button-container {
+    display: flex;
+    font-weight: 500;
+    font-size: .825em;
+}
+
+.informational-wrapper > .informational-container > .left-col > .button-container > .sign-up {
+    margin-right: 15px;
+    padding: 13px 20px;
+    background-color: #4bce79 ;
+    border-radius: 3px;
+}
+
+.informational-wrapper > .informational-container > .left-col > .button-container > .sign-up a {
+    color: black;
+    text-decoration: none;
+}
+
+.informational-wrapper > .informational-container > .left-col > .button-container > .learn-more {
+    padding: 13px 20px;
+    background-color: black;
+    border-radius: 3px;
+}
+
+.informational-wrapper > .informational-container > .left-col > .button-container > .learn-more a {
+    color: white;
+    text-decoration: none;
+}
+
+.informational-wrapper > .informational-container > .right-col {
+    margin-left: 40px;
+    font-weight: 500;
+    color: white;
+}
+
+.informational-wrapper > .informational-container > .right-col > .codepen {
+    color: #78dafc ;
+}
+
+.informational-wrapper > .informational-container > .right-col img {
+    padding-top: 4px;
+    width: 105%;
+}
+
+/* bottom */
+
+.uses-wrapper {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+    background-color: #36383f;
+    /* background-color: #676767; */
+}
+
+.uses-wrapper > .box {
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #676767 1px;
+    padding: 12px;
+    font-weight: 600;
+}
+
+.uses-wrapper > .box > .use {
+    font-size: 1.25em;
+    font-weight: 900;
+}
